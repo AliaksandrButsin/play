@@ -1,0 +1,196 @@
+@import url("./assets/fonts/fonts.css");
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.body {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+}
+/* .body-wrapper {
+} */
+img {
+    width: 100%;
+    height: auto;
+}
+/* ============== header ======================================================================================== */
+.header {
+    background-color : rgba(47, 46, 46, 1);
+    min-height: 60px;
+    width: 100%;
+    position: fixed;    
+    z-index: 3;
+
+}
+.header-wrapper {
+    max-width: 1280px;
+    /* position: sticky; */
+    margin: 0 auto;
+   
+
+}
+.header-block {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+}
+.header-logo {
+    width: 150px;
+    height: auto;
+    background-color: rgb(251, 4, 20);
+    background-repeat: no-repeat;
+    /* margin: 0 auto; */
+    object-fit: cover;
+    border-radius: 10%;
+}
+/* .logo-a {
+} */
+.header-list {
+    display: flex;
+    
+
+}
+.header-ul {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+
+}
+.header-li {
+    list-style-type: none;
+   
+
+}
+.header-link {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(169, 169, 169);
+    font-family: 'Advent Pro';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 1.1rem;
+   
+}
+.header-burger {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    display: none;
+   
+}
+.burger-line {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+}
+.line1 {
+    top: 0;
+}
+.line2 {
+    top: 33%;
+    transform: translateY(-33%);
+}
+.line3 {
+    top: 66%;
+    transform: translateY(-66%);
+}
+.line4 {
+    bottom: 0;
+    }
+/* ============== header ======================================================================================== */
+
+/* .background-wrapper {
+   
+    width: 1280px;
+    height: 500px;
+    margin: 0 auto; 
+} */
+.background1 {
+    background-color: rgba(0, 255, 255, 0.535);   
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+/* ============== face ======================================================================================== */
+.main-wrapper {
+    position: relative;
+}
+.face {
+    margin: 0 auto;
+    /* position: relative; */
+    z-index: 2;
+    /* background-color: rgb(251, 205, 0); */
+}
+.face-wrapper {
+    /* background-image: url(./assets/img/logo1.png); */
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+}
+/* ============== face ======================================================================================== */
+/* ============== work ======================================================================================== */
+.work {
+    min-height: 1000px;
+    background-color: rgb(109, 251, 0);
+    position: relative;
+    z-index: 2;
+}
+/* ============== work ======================================================================================== */
+/* ============== service ======================================================================================== */
+.service {
+    min-height: 1000px;
+    background-color: rgb(0, 251, 171);
+    /* position: relative; */
+    z-index: 2;
+}
+/* ============== service ======================================================================================== */
+/* ============== about ======================================================================================== */
+.about {
+    min-height: 1000px;
+    background-color: rgb(0, 113, 251);
+    position: relative;
+    z-index: 2;
+}
+/* ============== about ======================================================================================== */
+/* ============== video ======================================================================================== */
+.video {
+    min-height: 1000px;
+    background-color: rgb(121, 0, 251);
+    /* position: relative; */
+    z-index: 2;
+}
+/* ============== video ======================================================================================== */
+/* ============== empty ======================================================================================== */
+.empty {
+    min-height: 1000px;
+    background-color: rgb(251, 0, 217);
+    position: relative;
+    z-index: 2;
+}
+/* ============== empty ======================================================================================== */
+/* ============== contact ======================================================================================== */
+.contact {
+    min-height: 1000px;
+    background-color: rgb(251, 0, 21);
+    /* position: relative; */
+    z-index: 2;
+}
+/* ============== contact ======================================================================================== */
+/* ============== footer ======================================================================================== */
+.footer{
+    min-height: 200px;
+    background-color : rgba(47, 46, 46, 1);
+    position: relative;
+    z-index: 2;
+}
+/* ============== footer ======================================================================================== */
